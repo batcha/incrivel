@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>ERROU!! - Desafio Supremo</title>
+    <style type="text/css">
+        body {
+            background-color: #000000;
+            color: #FF0000;
+            font-family: "Comic Sans MS", "Courier New", monospace;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .blink {
+            animation: blinker 0.5s step-start infinite;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        .box {
+            width: 480px;
+            margin: 60px auto;
+            border: 4px solid #FF0000;
+            background: #0a0000;
+            padding: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 12px 8px;
+            padding: 10px 22px;
+            background: #220000;
+            border: 3px outset #FF0000;
+            color: #FFFF00;
+            font-size: 15px;
+            font-family: "Comic Sans MS", cursive;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #440000;
+            color: #FF8800;
+        }
+    </style>
+</head>
+
+<body>
+    <div
+        style="background:#FF0000;color:#FFFF00;font-size:13px;padding:3px 0;font-family:'Courier New',monospace; font-weight:bold;">
+        <marquee scrollamount="6">*** ERROU!! ERROU!! ERROU!! *** TENTE NOVAMENTE!! ***</marquee>
+    </div>
+
+    <div class="box">
+        <div style="font-size:80px;"><img src="../img/error.gif" alt="Errou"></div>
+
+        <h1 style="color:#FF0000; font-size:32px; text-shadow:2px 2px #880000;">
+            <span class="blink">ERROU!!</span>
+        </h1>
+
+        <div
+            style="border:2px solid #440000; background:#110000; padding:14px; margin:14px 0; font-family:'Courier New',monospace; font-size:14px; color:#FFAAAA; line-height:1.8;">
+            Que vergonha!!! Voce errou uma pergunta<br>
+            <strong style="color:#FF8800;">EXTREMAMENTE FACIL!!</strong><br><br>
+            Vai la estudar mais um pouquinho<br>
+            e tenta de novo depois!! hehe
+        </div>
+
+        <div style="font-size:40px; margin:10px 0;"><img src="../img/error_1.gif" alt="Errou"><img src="../img/error_2.gif" alt="Errou"><img src="../img/error_3.gif" alt="Errou"></div>
+
+        <a href="fase1.html" class="btn">&#9658; Tentar de Novo!!</a>
+        <br>
+        <a href="../home.html" style="font-size:12px; color:#440000; font-family:'Courier New',monospace;">voltar para o
+            site</a>
+    </div>
+</body>
+
+</html>

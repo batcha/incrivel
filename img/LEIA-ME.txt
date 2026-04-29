@@ -1,0 +1,58 @@
+INSTRUCOES - PASTA DE IMAGENS
+==============================
+Coloque aqui todos os arquivos de imagem do site.
+
+IMAGENS OBRIGATORIAS:
+---------------------
+foto_marcelo.jpg      - Sua foto (gerada por IA com cara antiga) - 200x200px
+                        (use na pagina conheca-me.html)
+
+JOGOS (jogos.html):
+mario_world.jpg       - Screenshot ou capa - 160x120px
+street_fighter.jpg    - Screenshot ou capa - 160x120px
+fzero.jpg             - Screenshot ou capa - 160x120px
+donkey_kong.jpg       - Screenshot ou capa - 160x120px
+mortal_kombat.jpg     - Screenshot ou capa - 160x120px
+
+GIFS SUGERIDOS (para buscar no Internet Archive ou archive.org):
+----------------------------------------------------------------
+bg_tile.gif           - Fundo tileavel (estrelas, espaco, pedras)
+bg_secret.gif         - Fundo da area secreta (mais escuro/assustador)
+separator.gif         - Separador animado (linha de fogo, arco-iris, etc)
+separator2.gif        - Segundo separador
+home_banner.gif       - Banner de boas-vindas 468x60
+home_deco1..4.gif     - GIFs decorativos da home 50x50 cada
+title_anim.gif        - GIF para titulo (estrela, bola girando)
+nav_deco1.gif         - Decoracao da barra lateral 80x80
+about_deco.gif        - Decoracao pagina conheca-me 80x80
+about_anim1..3.gif    - Animacoes pagina conheca-me 40x40 cada
+about_bye.gif         - GIF despedida 200x60
+jogos_deco.gif        - Joystick/controle animado 80x80
+jogos_title.gif       - Icone pagina de jogos 32x32
+jogos_gif1..3.gif     - Pixel art animada 50x50 cada
+jogos_separator.gif   - Separador para jogos 400x15
+midis_deco.gif        - Nota musical animada 80x80
+midi_gif1.gif         - GIF musica 40x40
+midi_gif2.gif         - Equalizador animado 60x30
+midi_gif3.gif         - CD girando 40x40
+midis_footer.gif      - Rodape musica 300x40
+construcao_worker.gif - CLASSICO: homenzinho de capacete amarelo 60x60
+construcao_tape.gif   - Fita de "em construcao" 400x20
+construcao_gif1..2.gif- Outros GIFs de construcao 100x50
+secret_skull.gif      - Caveira animada para area secreta 80x80
+star.gif              - Estrela animada pequena 24x24
+music_note.gif        - Nota musical 28x28
+enter_logo.gif        - Logo da pagina de entrada 200x80
+enter_anim1..3.gif    - Animacoes da entrada 40x40
+footer_deco.gif       - Badge do rodape 88x31
+award1..2.gif         - Badges de "premios" 88x31 cada
+
+ONDE ACHAR GIFs AUTENTICOS DA EPOCA:
+-------------------------------------
+- https://web.archive.org/web/1999*/http://www.geocities.com/
+- https://gifcities.org (arquivo de GIFs do Geocities!!)
+- https://theoldnet.com
+- Google Images com filtro "antes de 2000"
+
+DICA: GifCities (gifcities.org) tem o arquivo COMPLETO dos GIFs do Geocities!!
+E a melhor fonte para GIFs autenticos!!

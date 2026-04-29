@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>FASE 3 - ALERTA DE VIRUS!!</title>
+    <style type="text/css">
+        body {
+            background-color: #000000;
+            color: #FF0000;
+            font-family: "Comic Sans MS", "Courier New", monospace;
+            margin: 0;
+            padding: 0;
+        }
+
+        .blink {
+            animation: blinker 0.4s step-start infinite;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        .box {
+            width: 520px;
+            margin: 30px auto;
+            border: 4px solid #FF0000;
+            background: #0a0000;
+            padding: 28px;
+            text-align: center;
+        }
+
+        .opt {
+            display: inline-block;
+            margin: 12px 8px;
+            padding: 12px 26px;
+            background: #220000;
+            border: 3px outset #FF0000;
+            color: #FFFF00;
+            font-size: 16px;
+            font-family: "Comic Sans MS", cursive;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .opt:hover {
+            background: #440000;
+            color: #FF8800;
+        }
+    </style>
+</head>
+
+<body>
+    <div
+        style="background:#FF0000;color:#FFFF00;font-size:13px;padding:3px 0;font-family:'Courier New',monospace; font-weight:bold;">
+        <marquee scrollamount="6">*** ALERTA!! ALERTA!! VIRUS DETECTADO NO SEU COMPUTADOR!! ACAO IMEDIATA NECESSARIA!!
+            ***</marquee>
+    </div>
+
+    <div class="box">
+
+        <div style="font-size:50px;" class="blink"><img src="../img/warning.gif" alt="Errou"></div>
+
+        <h1 style="color:#FF0000; font-size:26px; text-shadow:2px 2px #880000; font-family:'Courier New',monospace;">
+            <span class="blink">!! VIRUS DETECTADO !!</span>
+        </h1>
+
+        <div
+            style="border:3px solid #FF0000; background:#110000; padding:14px; margin:14px 0; font-family:'Courier New',monospace; font-size:13px; color:#FFAAAA; text-align:left; line-height:1.8;">
+            <strong style="color:#FF0000;">ALERTA DE SEGURANCA - NIVEL CRITICO</strong><br><br>
+            Virus encontrado: <span style="color:#FF8800;">DESAFIO_SUPREMO.EXE</span><br>
+            Localizacao: C:\Windows\System32\VOCE.DLL<br>
+            Nivel de ameaca: <span style="color:#FF0000; font-weight:bold;">EXTERMINIO TOTAL</span><br><br>
+            <span class="blink" style="color:#FF0000;">&#9632; &#9632; &#9632; ESCANEANDO... 100% &#9632; &#9632;
+                &#9632;</span>
+        </div>
+
+        <p style="font-family:'Courier New',monospace; font-size:13px; color:#FFFF00; line-height:1.7;">
+            Para continuar com <strong style="color:#FF8800;">SEGURANCA TOTAL</strong><br>
+            clique no botao abaixo para o Norton Antivirus<br>
+            remover a ameaca!!
+        </p>
+
+        <!-- Botao que avanca (o "virus" e a fase 3) -->
+        <a href="fase4.html" class="opt">
+            &#9658; REMOVER VIRUS AGORA!!
+        </a>
+
+        <br><br>
+
+        <div style="font-size:10px; color:#333333; font-family:'Courier New',monospace;">
+            (c) Norton Antivirus 1999 &bull; Versao 5.0 &bull; Ultima atualizacao: nunca
+        </div>
+
+        <br>
+        <a href="index.html" style="font-size:11px; color:#440000; font-family:'Courier New',monospace;">nao, prefiro
+            ficar com o virus</a>
+
+    </div>
+</body>
+
+</html>

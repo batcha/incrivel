@@ -1,0 +1,397 @@
+/* ============================================================
+   A MELHOR PAGINA DA WWW - CSS RETRO AUTENTICO 1999
+   Feito no Bloco de Notas. Sem Dreamweaver. Sem FrontPage.
+   ============================================================ */
+
+body {
+    background-color: #000000;
+    background-image: url('img/bg_tile.gif');
+    background-repeat: repeat;
+    color: #FFFF00;
+    font-family: "Comic Sans MS", "Courier New", monospace;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;
+}
+
+/* Links classicos */
+a:link {
+    color: #00FFFF;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #FF00FF;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #FF8800;
+    text-decoration: none;
+    background-color: #330000;
+}
+
+a:active {
+    color: #FF0000;
+}
+
+/* Titulos */
+h1 {
+    font-family: "Comic Sans MS", cursive;
+    color: #FF00FF;
+    font-size: 28px;
+    text-shadow: 2px 2px 0px #FF0000;
+    text-align: center;
+    border-bottom: 3px solid #FF00FF;
+    padding-bottom: 6px;
+}
+
+h2 {
+    font-family: "Comic Sans MS", cursive;
+    color: #00FFFF;
+    font-size: 20px;
+    text-shadow: 1px 1px 0px #000066;
+}
+
+h3 {
+    color: #FF8800;
+    font-size: 16px;
+}
+
+/* Barra de topo com marquee */
+.marquee-top {
+    background-color: #000066;
+    color: #FFFF00;
+    font-size: 13px;
+    padding: 3px 0;
+    font-family: "Courier New", monospace;
+    border-bottom: 2px solid #0000FF;
+}
+
+.marquee-bottom {
+    background-color: #000066;
+    color: #FFFF00;
+    font-size: 13px;
+    padding: 3px 0;
+    font-family: "Courier New", monospace;
+    border-top: 2px solid #0000FF;
+    margin-top: 10px;
+}
+
+/* Layout principal em tabela (autentico!) */
+.main-table {
+    width: 780px;
+    margin: 0 auto;
+    border: 0;
+    cellspacing: 0;
+    cellpadding: 4;
+}
+
+/* Celula de navegacao lateral */
+.nav-cell {
+    width: 160px;
+    background-color: #000033;
+    border: 2px inset #0000FF;
+    vertical-align: top;
+    padding: 8px;
+}
+
+/* Celula de conteudo principal */
+.content-cell {
+    background-color: #000011;
+    border: 2px inset #440044;
+    vertical-align: top;
+    padding: 10px 14px;
+}
+
+/* Caixas de navegacao */
+.nav-box {
+    border: 2px outset #FF00FF;
+    background-color: #110022;
+    padding: 6px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.nav-box a {
+    display: block;
+    padding: 3px 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFF00;
+    text-decoration: none;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.nav-box a:hover {
+    color: #FF8800;
+    background-color: #220000;
+}
+
+.nav-title {
+    color: #FF00FF;
+    font-size: 11px;
+    font-weight: bold;
+    border-bottom: 1px solid #440044;
+    margin-bottom: 4px;
+    text-align: center;
+    font-family: "Courier New", monospace;
+}
+
+/* Caixa de conteudo generica */
+.content-box {
+    border: 2px outset #00FFFF;
+    background-color: #000033;
+    padding: 10px;
+    margin-bottom: 14px;
+}
+
+/* Caixa de destaque */
+.highlight-box {
+    border: 3px solid #FF8800;
+    background-color: #110000;
+    padding: 8px;
+    margin: 10px 0;
+    color: #FFFF00;
+}
+
+/* Card de jogo */
+.game-card {
+    border: 3px outset #00FF00;
+    background-color: #001100;
+    padding: 8px;
+    margin: 8px 0;
+    display: inline-block;
+    width: 160px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.game-card img {
+    border: 2px solid #FFFF00;
+    display: block;
+    margin: 0 auto 5px auto;
+}
+
+.game-card .game-title {
+    color: #00FF00;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.game-card .game-new {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 11px;
+    animation: blinker 0.6s step-start infinite;
+}
+
+.game-card .game-desc {
+    color: #AAFFAA;
+    font-size: 11px;
+    font-family: "Courier New", monospace;
+}
+
+/* Separadores */
+.separator {
+    width: 100%;
+    border: 0;
+    border-top: 2px solid #FF00FF;
+    margin: 10px 0;
+}
+
+.separator-img {
+    width: 100%;
+    text-align: center;
+    margin: 8px 0;
+}
+
+/* Contador */
+.counter-box {
+    border: 2px inset #00FF00;
+    background-color: #001100;
+    padding: 6px;
+    text-align: center;
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    color: #00FF00;
+    margin-bottom: 10px;
+}
+
+.counter-num {
+    font-size: 20px;
+    color: #FF8800;
+    font-weight: bold;
+    font-family: "Courier New", monospace;
+    display: block;
+}
+
+/* Blink autentico */
+.blink {
+    animation: blinker 0.8s step-start infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Badge "NEW!" */
+.badge-new {
+    background-color: #FF0000;
+    color: #FFFF00;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 1px 4px;
+    border: 1px solid #FF8800;
+    font-family: "Courier New", monospace;
+    animation: blinker 0.5s step-start infinite;
+}
+
+/* Rodape */
+.footer-box {
+    background-color: #000033;
+    border-top: 3px solid #FF00FF;
+    text-align: center;
+    padding: 10px;
+    color: #888888;
+    font-size: 11px;
+    font-family: "Courier New", monospace;
+    margin-top: 10px;
+}
+
+/* Lista de midis */
+.midi-item {
+    border: 1px solid #004400;
+    background-color: #001100;
+    padding: 5px 8px;
+    margin: 4px 0;
+    color: #00FF00;
+    font-family: "Courier New", monospace;
+    font-size: 13px;
+}
+
+.midi-item a {
+    color: #00FFFF;
+}
+
+.midi-item:hover {
+    background-color: #002200;
+}
+
+/* Livro de visitas */
+.guestbook-entry {
+    border: 1px solid #440044;
+    background-color: #110011;
+    padding: 6px;
+    margin: 6px 0;
+    font-size: 12px;
+    font-family: "Courier New", monospace;
+}
+
+.guestbook-entry .entry-name {
+    color: #FF00FF;
+    font-weight: bold;
+}
+
+.guestbook-entry .entry-text {
+    color: #CCCCCC;
+}
+
+.guestbook-entry .entry-date {
+    color: #888888;
+    font-size: 10px;
+}
+
+/* Stars piscando (placeholder para GIFs) */
+.stars-deco {
+    color: #FFFF00;
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+/* Pagina de construcao */
+.construcao-box {
+    text-align: center;
+    padding: 40px;
+    background-color: #110000;
+    border: 4px outset #FF8800;
+    margin: 30px auto;
+    width: 400px;
+}
+
+/* Pagina secreta */
+.secret-box {
+    border: 4px solid #FF0000;
+    background-color: #110000;
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px;
+    text-align: center;
+}
+
+.secret-option {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 20px;
+    background-color: #220000;
+    border: 3px outset #FF0000;
+    color: #FFFF00;
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.secret-option:hover {
+    background-color: #440000;
+    color: #FF8800;
+}
+
+/* Awards / badges */
+.awards-box {
+    text-align: center;
+    padding: 8px;
+}
+
+.awards-box img {
+    margin: 4px;
+    border: 2px solid #FF8800;
+}
+
+/* WebRing falso */
+.webring-box {
+    border: 2px solid #00FFFF;
+    background-color: #000033;
+    padding: 6px;
+    text-align: center;
+    font-size: 11px;
+    font-family: "Courier New", monospace;
+    color: #00FFFF;
+    margin-top: 10px;
+}
+
+/* Imagem de perfil */
+.profile-img {
+    border: 4px outset #FF00FF;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Placeholder para GIFs - indica onde colocar */
+.gif-placeholder {
+    display: inline-block;
+    border: 2px dashed #FF8800;
+    background-color: #110000;
+    color: #FF8800;
+    font-size: 10px;
+    font-family: "Courier New", monospace;
+    padding: 4px 8px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 2px;
+}

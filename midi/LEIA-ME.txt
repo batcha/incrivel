@@ -1,0 +1,26 @@
+INSTRUCOES - PASTA DE MIDIs
+============================
+Coloque aqui seus 10 arquivos MIDI.
+
+NOMES DOS ARQUIVOS:
+-------------------
+midi01.mid  (renomeie seus arquivos para estes nomes)
+midi02.mid
+midi03.mid
+midi04.mid
+midi05.mid
+midi06.mid
+midi07.mid
+midi08.mid
+midi09.mid
+midi10.mid
+
+DEPOIS: Abra midis.html e edite os nomes das musicas
+onde esta escrito "(coloque o nome da musica aqui)".
+
+ONDE ACHAR MIDIs AUTENTICOS:
+-----------------------------
+- https://www.vgmusic.com  (musicas de videogames em MIDI!!)
+- https://midiworld.com
+- https://freemidi.org
+- Busque no Google: "site:midi.com [nome da musica] .mid"
